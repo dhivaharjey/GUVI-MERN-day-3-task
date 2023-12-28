@@ -12,4 +12,4 @@
 
 ## Object Comparison Folder
 
--This folder have a code of how to compare two JSON have the same properties without order.
+- This folder have a code of how to compare two JSON have the same properties without order.
