@@ -1,7 +1,7 @@
 // const _ = require("lodash");
 
-const obj1 = { name: "DHIVAHAR", age: 24, id: 45 };
-const obj2 = { age: 24, name: "DHIVAHAR", id: 45 };
+const obj1 = { name: "DHIVAHAR", age: 24, id: 46 };
+const obj2 = { age: 24, name: "DHIVAHAR", id: 46 };
 
 const obj1Keys = Object.keys(obj1).sort();
 const obj2Keys = Object.keys(obj2).sort();
@@ -19,8 +19,8 @@ const compareArrays = (a, b) => {
 // console.log(compareArrays(obj1Keys, obj2Keys));
 
 let flag1 = compareArrays(obj1Keys, obj2Keys);
-let flag2 = compareArrays(obj1Keys, obj2Keys);
-console.log(flag1, flag2);
+let flag2 = compareArrays(arr1, arr2);
+//console.log(flag1, flag2);
 if (flag1 == true && flag2 == true) {
   console.log("true");
 } else {
