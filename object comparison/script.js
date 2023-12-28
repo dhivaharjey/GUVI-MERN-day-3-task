@@ -26,17 +26,6 @@ if (flag1 == true && flag2 == true) {
 } else {
   console.log("false");
 }
-// let arr1 = [];
-// for (let ind of obj1Keys) {
-//   arr1.push(ind);
-// }
-// console.log(arr1);
-// let arr2 = [];
-// for (let ind of obj2Keys) {
-//   arr2.push(ind);
-// }
-// console.log(arr2);
-// console.log(_.isEqual(obj1, obj2));
 
 // const cricketer1 = {
 //   name: "MS Dhoni",
